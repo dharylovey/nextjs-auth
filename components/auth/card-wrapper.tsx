@@ -11,11 +11,11 @@ import { Social } from "@/components/auth/social";
 import { BackButton } from "@/components/auth/backButton";
 
 interface CardWrapperProps {
-  children: React.ReactNode;
+  children?: React.ReactNode;
   headerLabel: string;
   backButtonLabel: string;
   backButtonHref: string;
-  showSocial: boolean;
+  showSocial?: boolean;
 }
 
 export const CardWrapper = ({
